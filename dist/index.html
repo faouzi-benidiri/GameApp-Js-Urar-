@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Urar</title>
+  </head>
+  <body class="max-width: 100%" style="background-color: #191919">
+    <div class="container py-4 px-3 mx-auto">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="mb-0" style="color: #d20a32">Urar</h1>
+
+        <form class="form-inline my-4">
+          <input
+            class="form-control form-control-sm mr-sm-2"
+            type="search"
+            placeholder="Find a game.."
+            aria-label="Search"
+          />
+        </form>
+      </div>
+      <h1 class="text-light" my-2>Welcome,</h1>
+      <p class="text-light">
+        Video games are interactive forms of entertainment that have grown in
+        popularity over the years. They are available on different platforms
+        such as game consoles, computers and smartphones. Video games are
+        designed to provide an immersive experience for their players, often
+        using sophisticated graphics and animations. Video games also offer a
+        wide variety of genres, ranging from sports and racing games to
+        role-playing and strategy games. Whether you are a beginner or an
+        experienced gamer, there is a video game for you. Follow GameSpotlight
+        to learn about the latest titles, trends and news from the world of
+        video games.
+      </p>
+      <!--dropdown-->
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn btn-danger dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Platform : Any
+        </button>
+        <ul class="dropdown-menu">
+          <a id="platformsDropdown" class="dropdown-item" href="#"
+            >PlayStation</a
+          >
+          <a id="platformsDropdown" class="dropdown-item" href="#">Xbox</a>
+          <a id="platformsDropdown" class="dropdown-item" href="#"
+            >Nintendo Switch</a
+          >
+          <a id="platformsDropdown" class="dropdown-item" href="#">Android</a>
+          <a id="platformsDropdown" class="dropdown-item" href="#">MacOs</a>
+          <a id="platformsDropdown" class="dropdown-item" href="#">Windows</a>
+        </ul>
+      </div>
+      <!-- ------ dropdown----- -->
+
+      <!-- cartes -->
+      <div id="card" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      <!-- ------------- -->
+    </div>
+    <br />
+    <!-- bouton afficher plus -->
+    <div id="load-more" class="text-center">
+      <button class="text-center btn btn-danger">Show More</button>
+    </div>
+    <!-- ---------- -->
+    <script src="./main.js"></script>
+  </body>
+  <footer class="bg-dark text-light py-3 mt-5">
+    <div class="container text-center">Urar © 2023 Tous droits réservés.</div>
+  </footer>
+</html>

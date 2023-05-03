@@ -1,0 +1,87 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  background-color: transparent;
+  width: 25rem;
+  margin: 2px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 17rem;
+}
+
+.card-title {
+  color: white;
+}
+
+.platforms-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.platform-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  margin-right: 0.5em;
+  background-size: cover;
+}
+
+.pc {
+  background-image: url("../images/pc.png");
+}
+
+.playstation {
+  background-image: url("../images/playstation.png");
+}
+
+.xbox {
+  background-image: url("../images/xbox.png");
+}
+
+.nintendo {
+  background-image: url("../images/nintendo.png");
+}
+
+.android {
+  background-image: url("../images/android.png");
+}
+.mac {
+  background-image: url("../images/mac.png");
+}
+
+.nintendo {
+  background-image: url("../images/linux.png");
+}
+
+button {
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
+.game-details {
+  color: white;
+}
+
+.btn {
+  padding: 4px 8px;
+}
